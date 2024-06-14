@@ -19,7 +19,7 @@ public class ObstacleManager : MonoBehaviour
     void FixedUpdate()
     {
         bool spawn = checkCooldown();
-        if (spawn && !GameOverScreen.showScreen)
+        if (spawn)
         {
             spawnObstacles();
         }

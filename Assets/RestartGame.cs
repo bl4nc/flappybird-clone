@@ -20,6 +20,7 @@ public class RestartGame : MonoBehaviour
     public void restartGame()
     {
         GameOverScreen.showScreen = false;
+        Time.timeScale = 1;
         SceneManager.LoadScene("SampleScene");
     }
     

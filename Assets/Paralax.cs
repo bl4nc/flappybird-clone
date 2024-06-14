@@ -20,7 +20,7 @@ public class Paralax : MonoBehaviour
     {
         moveObjectLeft();
         bool spawn = checkCooldown();
-        if (spawn && !GameOverScreen.showScreen)
+        if (spawn)
         {
             spawnGround();
         }

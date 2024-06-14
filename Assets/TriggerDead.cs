@@ -24,6 +24,7 @@ public class TriggerDead : MonoBehaviour
 
     public void showGameOver()
     {
+        Time.timeScale = 0;
         GameOverScreen.showScreen = true;
     }
 }
